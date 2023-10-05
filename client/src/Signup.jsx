@@ -34,12 +34,12 @@ function Signup(){
     return(       
         <div class="SignUp-box">
   {}
-  <h2>Registration</h2>
+  <h2 className="m-6 bg-primary text-light">Registration Form</h2>
   <div className="d-flex align-items-center justify-content-center">
 
 
-    <form onSubmit={handleRegister} className="bg-primary  p-3 rounded w-25 ">
-  <div className="user-box d-flex">
+    <form onSubmit={handleRegister} className="border border-primary  p-3 rounded w-25 ">
+  <div className="user-box d-flex mb-1">
     <input
       type="text"
       name="username"
@@ -50,7 +50,7 @@ function Signup(){
     />
     
   </div>
-  <div className="email-box">
+  <div className="email-box mb-1">
     <input
       type="text"
       name="email"

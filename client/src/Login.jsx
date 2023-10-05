@@ -33,13 +33,13 @@ function Login(){
 }
     return(       
         <div class="Login-box">
-  <h2> Login</h2>
-  <div className="d-flex align-items-center justify-content-center">
+  <h2 className="m-6 bg-primary text-light"> Login</h2>
+  <div className="d-flex align-items-center justify-content-center mb-3 ">
 
 
-    <form onSubmit={handleLogin} className="bg-primary">
+    <form onSubmit={handleLogin} className="border border-primary">
  
-  <div className="email-box">
+  <div className="email-box mb-3">
     <input
       type="text"
       name="email"
